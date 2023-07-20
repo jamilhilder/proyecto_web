@@ -254,3 +254,51 @@ nav ul li a {
 .imagen-container:hover img {
   transform: scale(1.1);
 }
+
+/* Estilos para la ventana modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(48, 161, 133, 0.4);
+}
+
+.modal-contenido {
+  background-color: #ca199e;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #f6f6fa;
+  width: 80%;
+}
+
+.cerrar {
+  color: #e40a0a;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s; 
+}
+
+.cerrar:hover,
+.cerrar:focus {
+  color: rgb(224, 221, 17);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/**/
+.brand-wrapper {
+  transition: transform 0.3s ease;
+}
+
+.brand-wrapper:hover {
+  transform: scale(1.1);
+}
+/**/
